@@ -1,2 +1,2 @@
-# bali79.github.io
+# SZOTANITO.github.io
 Angol szótanító
