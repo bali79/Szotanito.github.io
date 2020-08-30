@@ -1,47 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Feladatok</title>
-    <link rel="stylesheet" href="css/colors.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/selector.css">
 </head>
+
 <body>
-    <a href="/index.html">Home</a>
-    
-    <h1>
-        Válassz feladatot!
-    </h1>
-    <ul>
-        <li>1.</li>
-            <ul>
-                <li>P1</li>
-                <li>P2</li>
-                <li>P3</li>
-                <li>P4</li>
-                <li>P5</li>        
-            </ul>
-        <li>2.</li>
-            <ul>
-                <li>P1</li>
-                <li>P2</li>
-                <li>P3</li>
-                <li>P4</li>
-                <li>P5</li>        
-            </ul>
-        <li>3.</li>
-            <ul>
-                <li>P1</li>
-                <li>P2</li>
-                <li>P3</li>
-                <li>P4</li>
-                <li>P5</li>        
-            </ul>
-    </ul>
-    <img 
-    width="600" 
-    src="Images/How-To-Choose-A-Blog-Name.jpg" 
-    alt="Gondolkodo">
+    <div class="middleBox">
+        <table>
+            <tr>
+                <td>
+                    <div id="middleBox">
+                        <a href="/index.html">Home</a>
+                        <p id="text"></p>
+                        <h1>
+                            Válassz feladatot! Nyomj enter-t, ha mehet.
+                        </h1>
+                        <div class="container" id="feladatokListája">
+                        </div>
+                    </div>
+                </td>
+            </tr>
+        </table>
+
+        <img class="Shadow" src="Images/How-To-Choose-A-Blog-Name.jpg" alt="Gondolkodo">
+    </div>
+    <script src="/js/feladatok.js"></script>
 </body>
+
 </html>

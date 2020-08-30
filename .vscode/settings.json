@@ -1,3 +1,10 @@
 {
-    "liveServer.settings.port": 5501
+    "liveServer.settings.ignoreFiles": [
+        "node_modules/**",
+        ".vscode/**",
+        "**/*.db",
+        "db/**",
+        "**/db.json"
+    ],
+    "liveServer.settings.port": 5502
 }

@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>End</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/selector.css">
+</head>
+<body>
+    <div class="middleBox">
+        <a href="/index.html">Home</a>
+        <p></p>
+        <a href="/feladatok.html">Feladatválasztás</a>
+        <h1>Kedves gyakorló!</h1>
+        <div class="form-group">
+            <h2>Az alábbi eredményt éreted el: </h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="container">Jó válasz</th>
+                        <th class="container">Rossz válasz</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="container" id="good"></th>
+                        <th class="container" id="bad"></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="form-group">
+            <h2>Eddigi eredményeid: </h2>
+            <table>
+                <thead>
+                    <tr>
+                        <th class="container">Jó válasz</th>
+                        <th class="container">Rossz válasz</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <th class="container" id="goodAll"></th>
+                        <th class="container" id="badAll"></th>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <h2>Ezek voltak a hibáid:</h2>
+        <table id="hibák"></table>
+    </div>
+    <script src="/js/end.js"></script>
+</body>
+</html>
