@@ -77,7 +77,7 @@ function splitData(data) {
 
 function word() {
     for (let k = 0; k < dictData.length; k++) {
-        if (dictData[k][0] == "Hibák gyakorlása\r" && dictData[k][0] == felad) {
+        if (dictData[k][0] == "Hibák gyakorlása" && dictData[k][0] == felad) {
             timeover = setTimeout(showTime, 20000);
             //document.querySelector("span.time").innerHTML = timeover;
             delMove();
