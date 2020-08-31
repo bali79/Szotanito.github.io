@@ -12,7 +12,7 @@ welcome#üdvözöllek
 activity#tevékenység
 address#cím
 be interested#érdekli valami
-Club#klub
+club#klub
 email address#email cím
 include#magába foglal
 join#csatlakozik

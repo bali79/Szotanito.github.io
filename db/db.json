@@ -1,74 +1,6 @@
 {
   "users": [
     {
-      "name": "Tóth Balázs",
-      "email": "LITRO@FREEMAIL.HU",
-      "password": "123",
-      "eredmény": [
-        56,
-        1374
-      ],
-      "hibák": [
-        "best friend#a legjobb barát\r",
-        "dark hair#sötét haj\r",
-        "garden#kert\r",
-        "neighbour#szomszéd\r",
-        "next door#a szomszédban\r",
-        "over there#ott\r",
-        "people#emberek\r",
-        "the boy with short hair#a rövid hajú fiú\r",
-        "welcome#üdvözöllek\r",
-        "activity#tevékenység\r",
-        "address#cím\r",
-        "be interested#érdekli valami\r",
-        "Club#klub\r",
-        "email address#email cím\r",
-        "include#magába foglal\r",
-        "join#csatlakozik\r",
-        "membership card#tagsági igazolvány\r",
-        "open#nyitva\r",
-        "postcode#irányítószám\r",
-        "receptionist#recepció\r",
-        "sport centre#sportközpont\r",
-        "badminton#tollaslabda\r",
-        "basketball#kosárlabda\r",
-        "fitnessclass#fittneszóra\r",
-        "football#labdarúgás\r",
-        "karate#karate\r",
-        "swimming#úszás\r",
-        "table tennis#asztalitenisz\r",
-        "tennis#tenisz\r",
-        "volleyball#röplabda\r",
-        "weight training#súlyzózás\r",
-        "yoga#jóga\r",
-        "bike#kerékpár\r",
-        "both#mindkettő\r",
-        "count from#elszámol\r",
-        "divide#eloszt valamit\r",
-        "metre#méter\r",
-        "ride a bike#kerékpározni\r",
-        "carry#visz, cipel\r",
-        "memory#emlékezet\r",
-        "poster#plakát\r",
-        "tennis racquet#teniszütő\r",
-        "wear#visel\r",
-        "what colour is/are#milyen színű(ek)\r",
-        "a bit of#egy kevés\r",
-        "a lot of#sok\r",
-        "come on!#rajta, gyerünk\r",
-        "dance#tánc\r",
-        "everyone#mindenki\r",
-        "hips#csípők\r",
-        "jump#ugrik\r",
-        "key#kulcs\r",
-        "mobile#mobil\r",
-        "photograph#fénykép\r",
-        "ruler#vonalzó\r",
-        "swing#mozgat\r"
-      ],
-      "id": 1
-    },
-    {
       "name": "Tamás",
       "email": "toth.tamas07@outlook.com",
       "password": "Bw330405",
@@ -241,25 +173,15 @@
       "email": "litro@freemail.hu",
       "password": "123",
       "eredmény": [
-        3,
-        53
+        13,
+        96
       ],
       "hibák": [
-        "neighbour#szomszéd",
-        "next door#a szomszédban",
-        "over there#ott",
-        "people#emberek",
         "the boy with short hair#a rövid hajú fiú",
-        "welcome#üdvözöllek",
         "activity#tevékenység",
-        "address#cím",
-        "be interested#érdekli valami",
-        "Club#klub",
         "email address#email cím",
         "include#magába foglal",
-        "join#csatlakozik",
         "membership card#tagsági igazolvány",
-        "open#nyitva",
         "postcode#irányítószám",
         "receptionist#recepció",
         "sport centre#sportközpont",
@@ -300,6 +222,14 @@
         "swing#mozgat"
       ],
       "id": 5
+    },
+    {
+      "name": "Tóth Balázs",
+      "email": "LITRO@FREEMAIL.HU",
+      "password": "123",
+      "eredmény": [],
+      "hibák": [],
+      "id": 6
     }
   ]
 }
