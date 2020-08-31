@@ -24,7 +24,8 @@ function getDataFromPage() {
 }
 
 document.querySelector("#btn").addEventListener("click", function () {
-    getServerData(`http://localhost:3000/users`).then(
+    //getServerData(`http://localhost:3000/users`).then(
+    getServerData(`https://github.com/bali79/bali79.github.io/blob/master/db/db.json/users`).then(
         data => getEmailAddress(data)
     );
 })
