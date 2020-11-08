@@ -1,2 +1,0 @@
-# quickhelp.github.io
-QuickHelp

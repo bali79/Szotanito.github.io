@@ -1,8 +1,0 @@
-Használható
-Hiányzik:
-// - jelszó megjelenítése lehetőség
-// - időzítő válaszoknál
-// - e-mail küldés
-- különböző feladatok felhasználónként
-- hibás szónál jobban kiemelni a megoldást
-//- kilépésnél rákérdez, hogy biztos e

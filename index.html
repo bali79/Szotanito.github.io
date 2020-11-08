@@ -1,23 +1,88 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Angol szótanitó</title>
     <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="css/selector.css">
+    <link rel="stylesheet" href="node_modules\bootstrap\dist\css\bootstrap.min.css">
+    <link rel="stylesheet" href="node_modules\font-awesome/css/font-awesome.min.css">
+    <title>QuickHelp</title>
 </head>
+
 <body>
-    <div class="middleBox">
-        <h1>Üdvözöllek! Ez egy angol szótanító weboldal.</h1>
-        <h3>Kattints a képre, ha mehet.</h3>
-        <a target="blank" href="/Bejelentkezés.html">
-            <img class="Shadow" src="Images/its_time_to_learn_english.jpg" alt="learnEnglish">
-        </a>
-        <h1></h1>
+    <div class="row">
+        <div class="col-sm">
+            <div class="middleBox">
+                <h3>Főkategória</h3>
+                <div class="container">
+                    <label for="os">otthoni segítségnyújtás</label>
+                    <input onclick="os()" type="radio" name="Főtípus" id="os">
+                </div>
+                <div class="container">
+                    <label for="ts">távoli segítségnyújtás</label>
+                    <input onclick="ts()" type="radio" name="Főtípus" id="ts">
+                </div>
+                <div class="container">
+                    <label for="aü">autós ügyintézés</label>
+                    <input onclick="aü()" type="radio" name="Főtípus" id="aü">
+                </div>
+            </div>
+        </div>
+        <div class="col-sm">
+            <div id="alkat" class="middleBox">
+                <div id="alkatOS" class="col-sm">
+                    <div>
+                        <h3>Alkategória</h3>
+                        <div class="container">
+                            <label for="gm">gépes melók, minimum 1 óra 2000 Ft/óra</label>
+                            <input onclick="sum(this)" name="amount-input" type="checkbox" value="2000" id="gm">
+                        </div>
+                        <div class="container">
+                            <label for="csk">csak kézi, minimum 1 óra 2000 Ft/óra</label>
+                            <input onclick="sum(this)" value="2000" type="checkbox" id="csk">
+                        </div>
+                        <div class="container">
+                            <label for="tk">takarítás, minimum 1 óra 2800 Ft/óra</label>
+                            <input type="checkbox" id="tk">
+                        </div>
+                    </div>
+                </div>
+                <div id="alkatTS" class="col-sm">
+                    <div>
+                        <h3>Alkategória</h3>
+                        <div class="container">
+                            <label for="gm">tanulás, minimum 1 óra 1800 Ft/óra, skype, teams, facetime</label>
+                            <input type="checkbox" id="tn">
+                        </div>
+                        
+                    </div>
+                </div>
+                <div id="alkatAÜ" class="col-sm">
+                    <div>
+                        <h3>Alkategória</h3>
+                        <div class="container">
+                            <label for="gm">hivatali ügyintézés, minimum 1 óra 1500 Ft/óra</label>
+                            <input type="checkbox" id="aü">
+                        </div>
+                        
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        </div>
     </div>
-    <script src="js/main.js">
-        
-    </script>
+    <div class="row">
+        <div class="col-3">
+            <div class="middleBox">
+                Fizetendő: <span class="show-amount">0</span>Ft
+            </div>
+    
+        </div>
+
+    </div>
+    <script src="/js/index.js"></script>
 </body>
+
 </html>

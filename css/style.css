@@ -1,24 +1,31 @@
-@font-face {
-    font-family: "oswald";
-    src: url(fonts/Oswald/static/Oswald-Regular.ttf);
-    font-weight: 500;
-}
-
-html {
-    background-color: burlywood;
-}
-
-h1 {
-    color: rgb(95, 160, 122);
-    font-family: oswald;
-}
-
-img {
-   
-    max-width: 100%;
-}
-
-.Shadow {
-    box-shadow: 10px 10px 25px black;
+.middleBox {
+    padding: 15px;
+    border: solid 1px #c0c0c0;
+    box-shadow: 0 0 8px #777777;
+    border-radius: 10px;
+    position: static;
+    background-color: whitesmoke;
     
+}
+
+.middleBox input{
+    display: block;
+    margin-bottom: 7px;
+}
+
+input[type=radio],
+input.radio {
+  float: left;
+  clear: none;
+  margin: 2px 0 0 2px;
+}
+
+.container {
+    padding: 15px;
+    border: solid 1px #c0c0c0;
+    box-shadow: 0 0 8px #777777;
+    border-radius: 10px;
+    background-color: rgb(41, 223, 56);    
+    text-align: center;
+    width: fit-content;
 }
