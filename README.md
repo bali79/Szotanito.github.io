@@ -1,2 +1,2 @@
-# Szotanito.github.io
-Angol szótanító
+# quickhelp.github.io
+QuickHelp
