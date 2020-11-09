@@ -38,3 +38,9 @@ function sum(cb, amount){
     }
     showAmount.innerHTML = sumCash;
 }
+
+function sumAll(){
+    let kmInput = document.getElementById("km").value;
+    let sumAll = sumCash + Number(kmInput)*110;
+    document.querySelector("span.show-AllMount").innerHTML = sumAll;
+}
