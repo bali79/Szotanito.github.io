@@ -36,15 +36,27 @@
                         <h3>Alkategória</h3>
                         <div class="container">
                             <label for="gm">gépes melók, minimum 1 óra 2000 Ft/óra</label>
-                            <input onclick="sum(this)" name="amount-input" type="checkbox" value="2000" id="gm">
+                            <input onclick="sum(this, 2000)" name="amount-input" type="checkbox" value="1000" id="gm">
                         </div>
                         <div class="container">
                             <label for="csk">csak kézi, minimum 1 óra 2000 Ft/óra</label>
-                            <input onclick="sum(this)" value="2000" type="checkbox" id="csk">
+                            <input onclick="sum(this, 2000)" name="amount-input" value="2000" type="checkbox" id="csk">
                         </div>
                         <div class="container">
-                            <label for="tk">takarítás, minimum 1 óra 2800 Ft/óra</label>
-                            <input type="checkbox" id="tk">
+                            <label for="tk">takarítás, minimum 1 óra 1800 Ft/óra</label>
+                            <input onclick="sum(this, 1800)" name="amount-input" value="1800" type="checkbox" id="tk">
+                        </div>
+                        <div class="container">
+                            <label for="bs">babysitter, minimum 1 óra 2000 Ft/óra</label>
+                            <input onclick="sum(this, 2000)" name="amount-input" value="1800" type="checkbox" id="bs">
+                        </div>
+                        <div class="container">
+                            <label for="pak">pakolás, minimum 1 óra 2000 Ft/óra</label>
+                            <input onclick="sum(this, 2000)" name="amount-input" value="1800" type="checkbox" id="pak">
+                        </div>
+                        <div class="container">
+                            <label for="ief">idős ember felügyelése, minimum 1 óra 2000 Ft/óra</label>
+                            <input onclick="sum(this, 2000)" name="amount-input" value="1800" type="checkbox" id="ief">
                         </div>
                     </div>
                 </div>
@@ -52,8 +64,8 @@
                     <div>
                         <h3>Alkategória</h3>
                         <div class="container">
-                            <label for="gm">tanulás, minimum 1 óra 1800 Ft/óra, skype, teams, facetime</label>
-                            <input type="checkbox" id="tn">
+                            <label for="tn">tanulás, minimum 1 óra 1800 Ft/óra</label>
+                            <input onclick="sum(this, 1800)" name="amount-input" value="1800" type="checkbox" id="tn">
                         </div>
                         
                     </div>
@@ -62,8 +74,28 @@
                     <div>
                         <h3>Alkategória</h3>
                         <div class="container">
-                            <label for="gm">hivatali ügyintézés, minimum 1 óra 1500 Ft/óra</label>
-                            <input type="checkbox" id="aü">
+                            <label for="ka">kormányablak, minimum 1 óra 2500 Ft/óra</label>
+                            <input onclick="sum(this, 2500)" name="amount-input" value="1800" type="checkbox" id="ka">
+                        </div>
+                        <div class="container">
+                            <label for="csab">csomag a-ből b-be, minimum 1 óra 2000 Ft/óra(km költség + 110 Ft/km)</label>
+                            <input onclick="sum(this, 2000)" name="amount-input" value="1800" type="checkbox" id="csab">
+                        </div>
+                        <div class="container">
+                            <label for="üegya">ügyfélszállítás egyszerű autóval, minimum 1 óra 2500 Ft/óra(km költség + 110 Ft/km)</label>
+                            <input onclick="sum(this, 2500)" name="amount-input" value="1800" type="checkbox" id="üegya">
+                        </div>
+                        <div class="container">
+                            <label for="üela">ügyfélszállítás elegáns autóval, minimum 1 óra 3000 Ft/óra(km költség + 110 Ft/km)</label>
+                            <input onclick="sum(this, 3000)" name="amount-input" value="1800" type="checkbox" id="üela">
+                        </div>
+                        <div class="container">
+                            <label for="vs">vásárlás, minimum 1 óra 2000 Ft/óra(km költség + 110 Ft/km)</label>
+                            <input onclick="sum(this, 2000)" name="amount-input" value="1800" type="checkbox" id="vs">
+                        </div>
+                        <div class="container">
+                            <label for="kk">költözés kisteherautóval, minimum 1 óra 3000 Ft/óra(km költség + 210 Ft/km)</label>
+                            <input onclick="sum(this, 3000)" name="amount-input" value="1800" type="checkbox" id="kk">
                         </div>
                         
                     </div>

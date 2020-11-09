@@ -26,8 +26,9 @@ function aü(){
     document.getElementById("alkatTS").style.display="none";
 }
 
-function sum(cb){
-    let amountInput = document.querySelector("input[name='amount-input']").value;
+function sum(cb, amount){
+    let amountInput = amount
+    //let amountInput = document.querySelector("input[name='amount-input']").value;
     let showAmount = document.querySelector("span.show-amount");
     if (cb.checked == true){
         sumCash += Number(amountInput);
